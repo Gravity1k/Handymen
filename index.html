@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Kumbh+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="./images/McCoyDesignLogo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <title>HandyMen</title>
+</head>
+
+<body>
+    <script src="carousel.js"></script>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><i class="fas fa-hammer"></i></a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <a href="#services" class="navbar_links" onclick="scrollToSection('#services')">
+                    Services
+                </a>
+                </li>
+                <a href="#work" class="navbar_links" onclick="scrollToSection('#testimonials')">
+                    Testimonials
+                </a>
+                </li>
+                <a href="#contact" class="navbar_links" onclick="scrollToSection('#contact')">
+                    Contact Us
+                </a>
+                </li>
+                <button class="raise" onclick="scrollToSection('#quote')">
+                    Get a Quote
+                </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--END NAV-->
+
+    <section class="hero_section">
+        <div class="hero_wrapper"> 
+            <div class="hero_container">
+            <div class="image_container">
+                <img src="./images/handymanhero.png" class="hero_image" alt="handyman logo">
+            </div>
+            <div class="hero_text">
+                <h1>Around The House</h1>
+                <p>Handyman</p>
+            </div>
+        </div></div>
+    </section>
+    <section class="double_info_box">
+        <div class="text_boxes">
+            <div class="box1">
+                <p>Around the House has been servicing the Greenwood area for 35 years and counting. We are always
+                    taking on new jobs and looking to make new client relationships. Many of our customers stick with us
+                    time and time again.</p>
+            </div>
+            <div class="box2">
+                <p>Owned and operated by John Herman since the start, Around the House is here for all of your home
+                    maintenance needs. We have many specialties among our crew and will find the best solutions for you
+                    at the lowest cost.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="teams" id="team">
+        <div class="teams_header">
+            <h1>OUR WORK</h1>
+        </div>
+        <div class="card_wrapper">
+            <div class="card_work">
+                <img src="./images/faninstall.jpg" alt="man installing a fan">
+                <h2>Fan Instillation</h2>
+                <p>We recently completed a ceiling fan installation project to improve air circulation and energy efficiency in the home. By replacing outdated fixtures with modern ceiling fans,
+                     we not only enhanced the comfort of the living space but also reduced reliance on air conditioning, leading to potential energy savings. The installation process involved 
+                     careful wiring and mounting to ensure optimal performance and safety for the homeowners.</p>
+            </div>
+            <div class="card_work">
+                <img src="./images/bathroomremodel.jpg" alt="a pretty remodeled bathroom">
+                <h2>Bathroom Remodel</h2>
+                <p>During the bathroom remodel project, we started by dismantling the outdated fixtures and stripping away the worn tiles. With meticulous
+                     care, we removed the old shower, revealing the underlying plumbing for inspection and potential upgrades.
+                     This initial phase laid the foundation for a fresh, modern bathroom space tailored to the client's preferences and needs.</p>
+            </div>
+            <div class="card_work">
+                <img src="./images/landscapinglawn.jpg" alt="beautiful lawn">
+                <h2>Landscaping</h2>
+                <p>
+                    During the landscaping project, we undertook the task of constructing a stunning brick wall to delineate and enhance the outdoor space. Collaborating closely with the client,
+                     we meticulously selected plants and shrubbery that complemented the rustic charm of the brickwork, bringing their envisioned garden to life with a blend of texture and color.
+                    </p>
+            </div>
+            <div class="card_work">
+                <img src="./images/pressurewashing.jpg" alt="half clean brick stairs">
+                <h2>Pressure Washing</h2>
+                <p>We revitalized the exterior of the property through a thorough pressure washing session, stripping away years of grime and dirt buildup to reveal its original vibrancy.
+                     The high-pressure cleaning technique breathed new life into the surfaces.</p>
+            </div>
+            <div class="card_work">
+                <img src="./images/kitchencabinets.jpeg" alt="custom kitchen cabinets">
+                <h2>Kitchen Cabinets</h2>
+                <p>We began by removing the old cabinets and carefully selecting custom lighting to enhance the kitchen's atmosphere. Every detail, from material choice to cabinet design,
+                     was meticulously considered to achieve a modern and personalized space.
+                     The result was a stunning kitchen renovation that seamlessly combined functionality and style, exceeding the client's expectations.</p>
+            </div>
+            <div class="card_work">
+                <img src="./images/raingutter.jpg" alt="rain gutters">
+                <h2>Installed Rain Gutters</h2>
+                <p>We undertook a rain gutter installation project to address water drainage issues around the property. By strategically placing gutters along the roofline,
+                     we effectively directed rainwater away from the foundation, preventing potential water damage and erosion.</p>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-image">
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contact" id="quote">
+        <div class="contact_container">
+            <h2>Get A Quote</h2>
+            <form action="#" method="post">
+                <div class="form_group form_row">
+                    <div class="form_half">
+                        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                    </div>
+                    <div class="form_half">
+                        <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form_group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form_group">
+                    <input type="serv" id="service" name="services" placeholder="Services" required>
+
+                    <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form_group">
+                    <textarea id="comments" name="comments" rows="4" placeholder="Comments" required></textarea>
+                </div>
+                <button type="submit" class="submit_button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="test_header">
+            <h1>Testimonials</h1>
+        </div>
+        <div class="testimonials_container">
+            <div class="card1">
+                <div class="left-column1">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="review-text">
+                        <p>
+                            I think Around the House Handyman is one of the best maintenance companies I’ve used. 
+                        </p>
+                    </div>
+                    <p class="person-name">-Jimmy Cricket</p>
+                </div>
+                <div class="right-column1">
+                    <img src="./images/headshotlol.jpg" alt="Person Image">
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="left-column1">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="review-text">
+                        <p>
+                            Tim from Around the House saved me thousands of dollars in water damage last week. Thanks guys
+                        </p>
+                    </div>
+                    <p class="person-name"> -Allen P.</p>
+                </div>
+                <div class="right-column1">
+                    <img src="./images/timallen.jpg" alt="Person Image">
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="left-column1">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="review-text">
+                        <p>I use Around the House quite frequently for maintenance on my rental properties. They’re affordable and friendly.
+                        </p>
+                    </div>
+                    <p class="person-name">-Melissa L.</p>
+                </div>
+                <div class="right-column1">
+                    <img src="./images/headshot5.jpg" alt="Person Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="services_header">
+            <h1>OUR SERVICES</h1>
+        </div>
+        <div class="responsive">
+            <div class="card">
+                <h1>Carpentry</h1>
+                <img src="./images/testphoto1.png" class="card-footer" alt="Carpentry">
+            </div>
+
+            <div class="card">
+                <h1>Electrical</h1>
+                <img src="./images/testphoto2.png" class="card-footer" alt="Electrical">
+            </div>
+
+            <div class="card">
+                <h1>Plumbing </h1>
+                <img src="./images/testphhoto3.png" class="card-footer" alt="plumbing pipes">
+            </div>
+
+            <div class="card">
+                <h1>Flooring</h1>
+                <img src="./images/testphoto4.png" class="card-footer" alt="flooring hardwood">
+            </div>
+
+            <div class="card">
+                <h1>Landscaping</h1>
+                <img src="./images/testphoto5.png" class="card-footer" alt=" landscaping mower">
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <section class="getintouch" id="contact">
+        <div class="left_side_touch">
+                <div class="bottom_header"><h1>GET IN TOUCH</h1></div>
+            <ul>
+                <li>Mon-Fri: 9-5</li>
+                <li>Saturday: 10-2</li>
+                <li>Sunday: Closed</li>
+            </ul>
+    </div>
+        <div class="number_contact">
+            <div class="number_card"><p>
+                (555)555-5555
+            </p>
+            <p> contact@example.com
+
+            </p>
+            <p>
+                123 Example Rd.</br> Notreal, Florida 9999
+            </p>
+            </div>
+        </div>
+    </section>
+
+
+<!--                  Footer                      -->
+
+
+<footer id="footer-1147">
+    <div class="cs-container">
+        <div class="cs-top">
+                <i class="fas fa-hammer"></i> <h2>Around The House Handyman</h2>
+        </div>
+        <div class="cs-bottom">
+            <ul class="icons">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <h4>Powered by <a class="mccoy_hover" href="https://www.mccoysites.com" target="_blank">McCoy Design</a></h4>
+    </div>
+</footer>
+                                
+
+
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.responsive').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+    </script>
+    <script src="app.js"></script>
+</body>
